@@ -7,7 +7,7 @@ on:
 
 env:
   REPO_URL: https://github.com/277598414/immortalwrt.git
-  REPO_BRANCH: miam
+  REPO_BRANCH: mian
   CONFIG_FILE: configs/ipq60xx-openclash.config
   PATCHES_FILE_1: patches/0001-show-soc-status-on-luci.patch
   DIY_SCRIPT: diy-script.sh
