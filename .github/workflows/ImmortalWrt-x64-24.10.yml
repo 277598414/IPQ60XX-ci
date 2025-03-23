@@ -1,4 +1,4 @@
-name: ImmortalWrt-x64
+name: ImmortalWrt-x64-24.10
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: ImmortalWrt-x64
+  FIRMWARE_TAG: ImmortalWrt-x64-24.10
   TZ: Asia/Shanghai
 
 jobs:
