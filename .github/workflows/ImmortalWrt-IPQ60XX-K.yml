@@ -1,4 +1,4 @@
-name: IPQ60XX-K
+name: ImmortalWrt-IPQ60XX-K
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: IPQ60XX-K
+  FIRMWARE_TAG: ImmortalWrt-IPQ60XX-K
   TZ: Asia/Shanghai
 
 jobs:
