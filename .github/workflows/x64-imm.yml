@@ -1,4 +1,4 @@
-name: X86-64
+name: x64-imm
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: X86-64
+  FIRMWARE_TAG: x64-imm
   TZ: Asia/Shanghai
 
 jobs:
