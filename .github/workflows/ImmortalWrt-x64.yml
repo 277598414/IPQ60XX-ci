@@ -1,4 +1,4 @@
-name: x64-imm
+name: ImmortalWrt-x64
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: x64-imm
+  FIRMWARE_TAG: ImmortalWrt-x64
   TZ: Asia/Shanghai
 
 jobs:
