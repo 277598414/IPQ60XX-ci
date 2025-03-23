@@ -1,4 +1,4 @@
-name: x64-openwrt
+name: OpenWrt-x64-24.10
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: x64-openwrt
+  FIRMWARE_TAG: OpenWrt-x64-24.10
   TZ: Asia/Shanghai
 
 jobs:
