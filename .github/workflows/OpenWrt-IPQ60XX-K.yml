@@ -1,4 +1,4 @@
-name: ImmortalWrt-IPQ60XX-K
+name: OpenWrt-IPQ60XX-K
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: ImmortalWrt-IPQ60XX-K
+  FIRMWARE_TAG: OpenWrt-IPQ60XX-K
   TZ: Asia/Shanghai
 
 jobs:
@@ -159,7 +159,7 @@ jobs:
         body: |
           **This is OpenWrt Firmware for ${{ env.FIRMWARE_TAG }}**
           ### 📒 固件信息
-          - 这是测试版带WIFI带NSS的6.6内核固件
+          - 这是King-Of测试版带WIFI带NSS的6.6内核固件
           - 💻 这是 ${{ env.FIRMWARE_TAG }} 平台使用的 OpenWrt 固件
           - ⚽ 固件源码: ${{ env.REPO_URL }}
           - 💝 源码分支: ${{ env.REPO_BRANCH }}
