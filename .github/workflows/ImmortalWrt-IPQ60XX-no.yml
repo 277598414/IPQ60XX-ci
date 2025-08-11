@@ -1,4 +1,4 @@
-name: ImmortalWrt-ImmortalWrt-IPQ60XX-no
+name: ImmortalWrt-IPQ60XX-no
 
 on:
   workflow_dispatch:
